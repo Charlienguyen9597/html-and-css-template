@@ -1,0 +1,137 @@
+.logo{
+    width: 250px;
+    margin: 10px;
+}
+#navbar{
+    background-color: #0D1524;
+    margin: 10px;
+}
+#navbar ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+#navbar ul li{
+    display: inline;
+    margin: 0px 20px;
+}
+#navbar ul li a:hover{
+    color: #ff0000;
+}
+#navbar ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#carousel{
+    height: 450px;
+    margin-top: 10px;
+    background-image: url('./../img/slider_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /*Size ảnh sẽ ful*/
+    background-position: center center;
+    margin: 10px;
+}
+#intro{
+    padding: 10px;
+}
+.intro-text{
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 40px;
+    text-align: justify;
+}
+.intro-text-red{
+    color: red;
+}
+.intro-product{
+    margin: 0 -10px;
+}
+.intro-product-left,.intro-product-right{
+    float: left;
+    height: 700px;
+    width: 50%;
+}
+.intro-product-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    padding: 10px; 
+    box-sizing: border-box;
+    background-clip: content-box;
+    position: relative;
+}
+.intro-product-item-1{
+    height: 40%;
+    width: 50%;
+    background-image: url('../img/nha_tam.jpg');
+}
+.intro-product-item-2{
+    height: 40%;
+    width: 50%;
+    background-image: url('../img/sofa.jpg');
+}
+.intro-product-item-3{
+    height: 60%;
+    width: 100%;
+    background-image: url('../img/noi_that.jpg');
+}
+.intro-product-item-4{
+    height: 50%;
+    width: 100%;
+    background-image: url('../img/phong_khach.jpg');
+}
+.intro-product-item-5{
+    height: 50%;
+    width: 100%;
+    background-image: url('../img/van_phong.jpg');
+}
+.intro-product-detail{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding:10px;
+    background-clip: content-box;
+    width: 100%;
+}
+.intro-product-detail h1{
+    font-size: 20px;
+    text-align: center;
+}
+.intro-product-detail p{
+    text-align: center;
+}
+#product h1{
+    text-align: center;
+}
+.product-item{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.item-img{
+    max-width: 100%;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.item-content{
+    font-size: 17px;
+    color: #0000ff;
+}
+.item-button{
+    background-color: #00ff00;
+    border: 1px solid #00ff00;
+    color: #ffffff;
+}
